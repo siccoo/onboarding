@@ -120,5 +120,21 @@ export default {
   color: #a9a9a9;
 }
 
+@media only screen and (max-width: 1024px){
+  .onboard-right p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
 
+.onboard-right .ng {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #0000ff;
+  text-transform: uppercase;
+  margin: 0;
+}
 </style>
