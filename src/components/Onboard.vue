@@ -26,6 +26,17 @@
             </div>
             <div class="col-md-7 onboard-right">
                 <h5>Hey, Terry</h5>
+                <div class="row">
+                  <div class="col-md-6">
+                    <h2>Start your <span>30 days</span> Trial</h2>
+                    <p>Select your preferred package below</p>
+                  </div>
+                  <div class="col-md-6">
+                    <p class="ng">ngn</p>
+                    <p class="numb">1,999,999</p>
+                    <p class="total">Total <small>(Excludes VAT)</small></p>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
@@ -42,6 +53,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&family=Roboto&display=swap');
+
 .onboard {
   min-height: 100vh;
   overflow: hidden;
@@ -60,12 +73,52 @@ export default {
 }
 
 .onboard-right h5 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  color: #444444;
+  color: #a9a9a9;
   text-transform: uppercase; 
 }
+
+@media only screen and (max-width: 1024px){
+  .onboard-right h5 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+.onboard-right h2 {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.797236px;
+}
+
+@media only screen and (max-width: 1024px){
+  .onboard-right h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.onboard-right span {
+  color: #ffd700;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.onboard-right p {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  color: #a9a9a9;
+}
+
+
 </style>
