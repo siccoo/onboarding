@@ -25,5 +25,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.onboard {
+  min-height: 100vh;
+  overflow: hidden;
+}
 
+.onboard-left {
+  background: #111111;
+  background-size: cover;
+  
+}
 </style>
