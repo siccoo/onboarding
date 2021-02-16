@@ -27,11 +27,11 @@
             <div class="col-md-7 onboard-right">
                 <h5>Hey, Terry</h5>
                 <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-6 left-box">
                     <h2>Start your <span>30 days</span> Trial</h2>
                     <p>Select your preferred package below</p>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 right-box">
                     <p class="ng">ngn</p>
                     <p class="numb">1,999,999</p>
                     <p class="total">Total <small>(Excludes VAT)</small></p>
@@ -94,7 +94,7 @@ export default {
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
-  line-height: 40px;
+  line-height: 50px;
   letter-spacing: 0.797236px;
 }
 
@@ -127,6 +127,10 @@ export default {
   }
 }
 
+.onboard-right .right-box {
+  margin-top: -10px;
+}
+
 .onboard-right .ng {
   font-family: "Roboto" sans-serif;
   font-style: normal;
@@ -135,6 +139,16 @@ export default {
   line-height: 30px;
   color: #0000ff;
   text-transform: uppercase;
+  margin: 0;
+}
+
+.onboard-right .numb {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 30px;
+  color: #0000ff;
   margin: 0;
 }
 </style>
