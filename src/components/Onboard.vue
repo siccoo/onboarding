@@ -9,7 +9,13 @@
                 <div class="parent">
                     <ul id="childWrapper">
                       <li>
-                        
+                        <a href="#"> &nbsp; Trial & Pricing </a>
+                      </li>
+                      <li>
+                        <a href="#"> &nbsp; Payment Method</a>
+                      </li>
+                      <li>
+                        <a href="#"> &nbsp; Get started...</a>
                       </li>
                     </ul>
                 </div>
