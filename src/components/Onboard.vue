@@ -1,6 +1,15 @@
 <template>
     <section class="onboard">
-        This is the onboarding app
+        <div class=" m-0 p-0">
+          <div class="row">
+            <div class="col-md-4 onboard-left">
+
+            </div>
+            <div class="col-md-8 onboard-right">
+
+            </div>
+          </div>
+        </div>
     </section>
 </template>
 
