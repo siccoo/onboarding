@@ -1,6 +1,6 @@
 <template>
     <section class="onboard">
-
+        This is the onboarding app
     </section>
 </template>
 
@@ -9,7 +9,6 @@ export default {
   data () {
 
     }
-  }
 }
 </script>
 
