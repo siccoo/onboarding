@@ -19,9 +19,13 @@
                       </li>
                     </ul>
                 </div>
+                <div class="parent2">
+                    <p>Success is not final; failure is not fatal; it is the courage to continue that counts.</p>
+                    <h6>-Winston Churchill</h6>
+                </div>
             </div>
             <div class="col-md-7 onboard-right">
-
+                <h5>Hey, Terry</h5>
             </div>
           </div>
         </div>
@@ -49,5 +53,19 @@ export default {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+}
+
+.onboard-right {
+  padding: 40px
+}
+
+.onboard-right h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: #444444;
+  text-transform: uppercase; 
 }
 </style>
