@@ -1,5 +1,7 @@
 <template>
-  
+    <section class="onboard">
+
+    </section>
 </template>
 
 <script>
