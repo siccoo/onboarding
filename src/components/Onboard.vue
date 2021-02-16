@@ -4,7 +4,7 @@
           <div class="row">
             <div class="col-md-4 onboard-left">
                 <a href="/" class="logo-brand">
-                  <img :src="require('./assets/OnLogo.jpeg')"/>
+                  <img :src="require('@/assets/OnLogo.jpeg')"/>
                 </a>
             </div>
             <div class="col-md-8 onboard-right">
