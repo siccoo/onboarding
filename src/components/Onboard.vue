@@ -1,6 +1,6 @@
 <template>
     <section class="onboard">
-        <div class=" m-0 p-0">
+        <div class="">
           <div class="row">
             <div class="col-md-5 onboard-left">
                 <a href="/" class="logo-brand">
