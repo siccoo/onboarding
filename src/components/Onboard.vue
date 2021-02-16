@@ -94,7 +94,7 @@ export default {
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
-  line-height: 50px;
+  line-height: 45px;
   letter-spacing: 0.797236px;
 }
 
@@ -150,5 +150,19 @@ export default {
   line-height: 30px;
   color: #0000ff;
   margin: 0;
+}
+
+.onboard-right .total {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  color: #a9a9a9;
+}
+
+.onboard-right small {
+  text-transform: uppercase;
+  font-weight: normal;
 }
 </style>
