@@ -84,6 +84,10 @@ export default {
   -o-background-size: cover;
 }
 
+.onboard-left .parent {
+  margin-bottom: 20px;
+}
+
 .onboard-left .wrapper {
   list-style-type: none;
   margin: 15px;
@@ -140,12 +144,11 @@ export default {
 } */
 
 .onboard-left .parent2 {
-    max-width: 300px;
-    /* height: 242.12px; */
-    margin: 40px 0 30px 0;
+    width: 60%;
     padding: 30px;
     border-radius: 10px;
     border: 1px solid #fff;
+    margin: auto;
 }
 
 .onboard-right {
