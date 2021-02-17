@@ -7,15 +7,15 @@
                   <img :src="require('@/assets/OnLogo.jpeg')"/>
                 </a>
                 <div class="parent">
-                    <ul id="childWrapper">
+                    <ul class="wrapper">
                       <li>
                         <a href="#" class="link"> &nbsp; Trial & Pricing &nbsp; -> </a>
                       </li>
                       <li>
-                        <a href="#" > &nbsp; Payment Method</a>
+                        <a href="#" class="link"> &nbsp; Payment Method</a>
                       </li>
                       <li>
-                        <a href="#"> &nbsp; Get started...</a>
+                        <a href="#" class="link"> &nbsp; Get started...</a>
                       </li>
                     </ul>
                 </div>
@@ -79,7 +79,9 @@ export default {
 }
 
 .onboard-left .wrapper {
-  text-decoration: none;
+  list-style-type: none;
+  padding: 20px;
+  margin: 50px;
 }
 
 .onboard-right {
