@@ -23,6 +23,9 @@
                     </ul>
                 </div>
                 <div class="parent2">
+                  <div class="child-border">
+                    <p>"</p>
+                  </div>
                     <p>Success is not final; failure is not fatal; it is the courage to continue that counts.</p>
                     <h6>-Winston Churchill</h6>
                 </div>
@@ -135,6 +138,15 @@ export default {
   border-left: 2px solid #ffd700;
   color: #fff;
 } */
+
+.onboard-left .parent2 {
+    max-width: 300px;
+    /* height: 242.12px; */
+    margin: 40px 0 30px 0;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
 
 .onboard-right {
   padding: 40px
