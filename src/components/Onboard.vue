@@ -9,7 +9,7 @@
                 <div class="parent">
                     <ul id="childWrapper">
                       <li>
-                        <a href="#"> &nbsp; Trial & Pricing </a>
+                        <a href="#"> &nbsp; Trial & Pricing &nbsp; -> </a>
                       </li>
                       <li>
                         <a href="#"> &nbsp; Payment Method</a>
@@ -36,7 +36,6 @@
                     <p class="numb">1,999,999</p>
                     <p class="total">Total <small>(Excludes VAT)</small></p>
                   </div>
-                  <!-- <div class="row"> -->
                     <div class="col-md-6">          
                       <div class="border-white">
                         <p>Starts From <span class="ng">NGN</span></p>
@@ -46,7 +45,6 @@
                     <div class="col-md-6">
 
                     </div>
-                <!-- </div> -->
                 </div>
             </div>
           </div>
