@@ -76,8 +76,7 @@ export default {
 
 section {
   min-height: 100vh;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .onboard-left {
