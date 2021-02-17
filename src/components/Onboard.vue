@@ -84,6 +84,30 @@ export default {
   margin: 50px;
 }
 
+.wrapper .link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 47px;
+    letter-spacing: 0.051em;
+    color: #d5d5d5;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper .link {
+    font-size: 15px;
+    line-height: 38px;
+  }
+}
+
+.wrapper .link:hover {
+  border-left: 2px solid #ffd700;
+  color: #fff;
+}
+
 .onboard-right {
   padding: 40px
 }
