@@ -80,7 +80,6 @@ export default {
 
 .onboard-left .wrapper {
   list-style-type: none;
-  padding: 20px;
   margin: 50px;
 }
 
@@ -88,12 +87,13 @@ export default {
     font-family: "Roboto";
     font-style: normal;
     font-weight: bolder;
-    font-size: 20px;
-    line-height: 47px;
+    font-size: 18px;
+    line-height: 70px;
     letter-spacing: 0.051em;
     color: #d5d5d5;
     list-style: none;
     text-decoration: none !important;
+    padding: 20px;
 }
 
 @media only screen and (max-width: 1024px) {
