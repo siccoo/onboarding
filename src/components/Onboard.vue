@@ -14,6 +14,9 @@
                       <li>
                         <a href="#" class="link"> &nbsp; Payment Method</a>
                       </li>
+                      <!-- <li class="link-line">
+                        ------ 
+                      </li> -->
                       <li>
                         <a href="#" class="link"> &nbsp; Get started...</a>
                       </li>
@@ -80,7 +83,7 @@ export default {
 
 .onboard-left .wrapper {
   list-style-type: none;
-  margin: 50px;
+  margin: 15px;
 }
 
 .wrapper .link {
@@ -88,7 +91,7 @@ export default {
     font-style: normal;
     font-weight: bolder;
     font-size: 18px;
-    line-height: 70px;
+    line-height: 50px;
     letter-spacing: 0.051em;
     color: #d5d5d5;
     list-style: none;
@@ -107,6 +110,31 @@ export default {
   border-left: 2px solid #ffd700;
   color: #fff;
 }
+
+/* .wrapper .link-line {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: 0.051em;
+    color: #ffd700;
+    list-style: none;
+    text-decoration: none !important;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper .link-line {
+    font-size: 15px;
+    line-height: 38px;
+  }
+}
+
+.wrapper .link-line:hover {
+  border-left: 2px solid #ffd700;
+  color: #fff;
+} */
 
 .onboard-right {
   padding: 40px
