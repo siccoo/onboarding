@@ -74,9 +74,10 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&family=Roboto&display=swap');
 
-.onboard {
-  min-height: 100%;
-  overflow: hidden;
+section {
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .onboard-left {
