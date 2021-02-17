@@ -44,8 +44,11 @@
                   </div>
                     <div class="col-md-6">          
                       <div class="border-white">
-                        <p>Starts From <span class="ng">NGN</span></p>
-
+                        <p>Starts From <br/> <span class="ng">NGN</span></p>
+                        <h6>5,999,999.99</h6>
+                        <p>per annum</p>
+                        <h5>Premuim</h5>
+                        <p>100 Users <span class="dot">.</span> All Modules</p>
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -72,7 +75,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&family=Roboto&display=swap');
 
 .onboard {
-  min-height: 100vh;
+  min-height: 100%;
   overflow: hidden;
 }
 
