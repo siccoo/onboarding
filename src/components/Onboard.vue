@@ -36,19 +36,21 @@
                     <p class="numb">1,999,999</p>
                     <p class="total">Total <small>(Excludes VAT)</small></p>
                   </div>
+                  <!-- <div class="row"> -->
+                    <div class="col-md-6">          
+                      <div class="border-white">
+                        <p>Starts From <span class="ng">NGN</span></p>
+
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                <!-- </div> -->
                 </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">          
-              <div class="border-white">
-                
-              </div>
-            </div>
-            <div class="col-md-6">
-
-            </div>
-          </div>
+          
         </div>
     </section>
 </template>
