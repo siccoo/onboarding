@@ -9,10 +9,10 @@
                 <div class="parent">
                     <ul id="childWrapper">
                       <li>
-                        <a href="#"> &nbsp; Trial & Pricing &nbsp; -> </a>
+                        <a href="#" class="link"> &nbsp; Trial & Pricing &nbsp; -> </a>
                       </li>
                       <li>
-                        <a href="#"> &nbsp; Payment Method</a>
+                        <a href="#" > &nbsp; Payment Method</a>
                       </li>
                       <li>
                         <a href="#"> &nbsp; Get started...</a>
@@ -76,6 +76,10 @@ export default {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+}
+
+.onboard-left .wrapper {
+  text-decoration: none;
 }
 
 .onboard-right {
